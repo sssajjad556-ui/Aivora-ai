@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AIVORA AI STUDIO</title>
     <style>
-        body { background-color: #0b0b12; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
-        .container { max-width: 500px; margin: auto; background: #1a1a2e; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
-        h1 { color: #e91e63; margin-bottom: 5px; }
-        input[type="file"] { width: 90%; padding: 10px; margin: 15px 0; background: #252545; border: 1px solid #444; border-radius: 8px; color: white; }
-        textarea { width: 90%; padding: 12px; margin: 10px 0; border-radius: 8px; border: 1px solid #444; background: #252545; color: white; resize: none; }
-        button { background: #e91e63; color: white; border: none; padding: 15px; width: 100%; border-radius: 8px; cursor: pointer; font-size: 18px; font-weight: bold; margin-top: 15px; transition: 0.3s; }
-        button:hover { background: #c2185b; }
+        body { background-color: #0b0b12; color: #ffffff; font-family: sans-serif; margin: 0; padding: 20px; text-align: center; }
+        .container { max-width: 450px; margin: auto; background: #161625; padding: 20px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h2 { color: #ff3e6c; margin-bottom: 20px; }
+        .settings-bar { display: flex; justify-content: space-between; margin-bottom: 15px; }
+        .setting-box { background: #252545; padding: 8px 12px; border-radius: 8px; font-size: 12px; border: 1px solid #444; }
+        textarea { width: 90%; height: 80px; background: #1a1a2e; border: 1px solid #444; border-radius: 10px; color: white; padding: 15px; margin-bottom: 15px; }
+        .media-btns { display: flex; gap: 10px; justify-content: center; margin-bottom: 20px; }
+        .icon-btn { width: 60px; height: 60px; background: #252545; border: 1px solid #444; border-radius: 10px; color: #888; display: flex; align-items: center; justify-content: center; }
+        button { background: linear-gradient(90deg, #ff3e6c, #ff8a00); color: white; border: none; padding: 15px; width: 100%; border-radius: 10px; font-size: 18px; font-weight: bold; cursor: pointer; }
+        .preview-box { width: 100%; height: 200px; background: #000; border: 2px dashed #444; margin-top: 20px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #666; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>👑 AIVORA AI STUDIO 👑</h1>
-        <p>আপনার প্রফেশনাল এআই ভিডিও জেনারেটর</p>
-        <input type="file" accept="image/*">
-        <textarea placeholder="আপনার ভিডিওর বিবরণ এখানে লিখুন..." rows="4"></textarea>
-        <button>ভিডিও জেনারেট করুন</button>
+
+<div class="container">
+    <h2>AIVORA AI STUDIO</h2>
+    
+    <div class="settings-bar">
+        <div class="setting-box">xAI Grok</div>
+        <div class="setting-box">6s</div>
+        <div class="setting-box">480p</div>
+        <div class="setting-box">9:16</div>
     </div>
+
+    <textarea placeholder="Describe the content you want to create..."></textarea>
+
+    <div class="media-btns">
+        <div class="icon-btn">+</div>
+        <div class="icon-btn">🖼️</div>
+        <div class="icon-btn">🎞️</div>
+    </div>
+
+    <button>CREATE VIDEO</button>
+
+    <div class="preview-box">Video Preview Area</div>
+</div>
+
 </body>
 </html>
