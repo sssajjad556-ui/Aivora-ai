@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <title>Bangla Hub 24 - স্মার্ট টুলস</title>
-    <style>
-        body { font-family: sans-serif; background: #0f172a; color: #fff; padding: 20px; text-align: center; }
-        .box { background: #1e293b; padding: 25px; border-radius: 15px; max-width: 500px; margin: 10px auto; border: 2px solid #38bdf8; }
-        .btn { display: block; padding: 15px; background: #38bdf8; color: #000; text-decoration: none; border-radius: 10px; font-weight: bold; margin-top: 15px; }
-        h1 { color: #38bdf8; }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
-    <h1>Bangla Hub 24</h1>
-    <p>মোবাইল দিয়ে প্রফেশনাল কাজ করার সেরা টুলস</p>
+<body class="bg-gray-950 text-white p-6">
 
-    <div style="margin: 20px 0;">[অ্যাড কোড এখানে]</div>
+<div class="max-w-6xl mx-auto">
+    <h1 class="text-3xl font-bold mb-8 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Gemini AI Studio: 15 Tools Suite</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="space-y-4">
+            <h2 class="text-xl font-semibold text-gray-400 border-b border-gray-800 pb-2">ভিডিও এডিটিং</h2>
+            <div class="grid gap-2">
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-blue-600 transition">ভিডিও জেনারেটর</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-blue-600 transition">অডিও মেকার</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-blue-600 transition">সাবটাইটেল জেনারেটর</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-blue-600 transition">কালার কারেকশন</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-blue-600 transition">ভিডিও ফরম্যাট কনভার্টার</button>
+            </div>
+        </div>
 
-    <div class="box">
-        <h3>🚀 এআই দিয়ে ভিডিও তৈরি</h3>
-        <p>যেকোনো লেখাকে ভিডিওতে রূপান্তর করুন</p>
-        <a href="https://runwayml.com/" class="btn">এখনই শুরু করুন</a>
+        <div class="space-y-4">
+            <h2 class="text-xl font-semibold text-gray-400 border-b border-gray-800 pb-2">গ্রাফিক ডিজাইন</h2>
+            <div class="grid gap-2">
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-purple-600 transition">ইমেজ টু প্রম্পট</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-purple-600 transition">লোগো ডিজাইনার</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-purple-600 transition">ব্যাকগ্রাউন্ড রিমুভার</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-purple-600 transition">ফটো আপস্কেলার</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-purple-600 transition">ভেক্টর কনভার্টার</button>
+            </div>
+        </div>
+
+        <div class="space-y-4">
+            <h2 class="text-xl font-semibold text-gray-400 border-b border-gray-800 pb-2">কন্টেন্ট & অটোমেশন</h2>
+            <div class="grid gap-2">
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-emerald-600 transition">আর্টিকেল রাইটার</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-emerald-600 transition">কোড জেনারেটর</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-emerald-600 transition">ইমেইল ড্রাফটার</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-emerald-600 transition">সোশ্যাল পোস্ট মেকার</button>
+                <button class="bg-gray-900 p-3 rounded-lg hover:bg-emerald-600 transition">ডেটা এনালিস্ট</button>
+            </div>
+        </div>
+
     </div>
 
-    <div class="box">
-        <h3>🖼️ ছবির ব্যাকগ্রাউন্ড রিমুভ</h3>
-        <p>এক ক্লিকেই ছবির ব্যাকগ্রাউন্ড সরান</p>
-        <a href="https://www.remove.bg/" class="btn">এখনই শুরু করুন</a>
+    <div class="mt-12 bg-gray-900 p-8 rounded-2xl border border-gray-800 shadow-xl">
+        <textarea class="w-full h-40 bg-black p-4 rounded-xl border border-gray-700 text-white focus:ring-2 focus:ring-blue-500 outline-none" placeholder="আপনার প্রোজেক্টের আইডিয়া এখানে লিখুন..."></textarea>
+        <button class="mt-4 w-full bg-blue-600 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition shadow-lg">প্রসেসিং শুরু করুন</button>
     </div>
+</div>
 
-    <div class="box">
-        <h3>🤖 এআই চ্যাট অ্যাসিস্ট্যান্ট</h3>
-        <p>যেকোনো প্রশ্নের উত্তর ও লেখার সাহায্য নিন</p>
-        <a href="https://chat.openai.com/" class="btn">এখনই শুরু করুন</a>
-    </div>
 </body>
 </html>
