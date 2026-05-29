@@ -2,31 +2,45 @@
 <html>
 <head>
 <style>
-  .tool-button { display: block; width: 100%; padding: 15px; margin: 10px 0; background-color: #007bff; color: white; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold; }
-  .tool-button:hover { background-color: #0056b3; }
-  h2 { text-align: center; color: #333; }
+  body { font-family: sans-serif; padding: 10px; }
+  .grid-container { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; /* বাটনগুলোকে পাশাপাশি ২ কলামে রাখবে */
+    gap: 10px; 
+  }
+  .tool-button { 
+    padding: 10px; 
+    background-color: #007bff; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    font-weight: bold;
+    font-size: 12px;
+  }
+  h2 { text-align: center; }
 </style>
 </head>
 <body>
 
-<h2>AI ToolHub 24 - Free AI Tools</h2>
-
-<!-- টুলসের লিস্ট -->
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">1. Adobe Express (Animate)</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">2. Luma Dream Machine</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">3. Kling AI</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">4. Pika Art</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">5. RunwayML</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">6. Leonardo.ai</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">7. Upscale.media</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">8. Remove.bg</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">9. Canva Magic Media</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">10. Tensor.art</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">11. ElevenLabs</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">12. Voicemaker.in</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">13. Perplexity AI</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">14. Clipchamp</a>
-<a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="tool-button">15. Hugging Face (SadTalker)</a>
+<h2>AI ToolHub 24</h2>
+<div class="grid-container">
+  <a href="LINK" class="tool-button">1. Adobe</a>
+  <a href="LINK" class="tool-button">2. Luma</a>
+  <a href="LINK" class="tool-button">3. Kling</a>
+  <a href="LINK" class="tool-button">4. Pika</a>
+  <a href="LINK" class="tool-button">5. Runway</a>
+  <a href="LINK" class="tool-button">6. Leonardo</a>
+  <a href="LINK" class="tool-button">7. Upscale</a>
+  <a href="LINK" class="tool-button">8. Remove.bg</a>
+  <a href="LINK" class="tool-button">9. Canva</a>
+  <a href="LINK" class="tool-button">10. Tensor</a>
+  <a href="LINK" class="tool-button">11. ElevenLabs</a>
+  <a href="LINK" class="tool-button">12. Voicemaker</a>
+  <a href="LINK" class="tool-button">13. Perplexity</a>
+  <a href="LINK" class="tool-button">14. Clipchamp</a>
+  <a href="LINK" class="tool-button">15. SadTalker</a>
+</div>
 
 </body>
 </html>
